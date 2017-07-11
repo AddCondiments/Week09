@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 /*
  * Name: Matthew Watada
@@ -31,12 +30,11 @@ namespace Week09
             }
         }
 
-            //Constructors
+        //Constructors
 
-            public Human(string name)
+        public Human(string name)
         {
             this.Name = name;
         }
     }
 }
-
