@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 /*
  * Name: Matthew Watada
  * July 11th 2017
  * Description: This is the abstract class
  * Version: 0.1 Initial Commit
+ */
+
 namespace Week09
 {
     public abstract class Human
@@ -38,4 +39,4 @@ namespace Week09
         }
     }
 }
-*/
+
