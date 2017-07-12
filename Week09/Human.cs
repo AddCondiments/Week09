@@ -16,8 +16,8 @@ namespace Week09
     {
         // Private Fields
         private string _name;
-        // Public Properties --------------------------------------
 
+        // Public Properties --------------------------------------
         public string Name
         {
             get
@@ -31,6 +31,12 @@ namespace Week09
         }
 
         //Constructors
+
+        /// <summary>
+        /// Okay, IDK why it let me put a summary in here but not int the other class.
+        /// Requires only one parameter...
+        /// </summary>
+        /// <param name="name"></param>
 
         public Human(string name)
         {
