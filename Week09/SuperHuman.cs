@@ -97,5 +97,10 @@ namespace Week09
             outputString += "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
             return outputString;
         }
+
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented!");
+        }
     }
 }
