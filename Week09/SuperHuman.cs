@@ -86,13 +86,13 @@ namespace Week09
         // String Override Method
         public override string ToString()
         {
-            string outputString = ""
+            string outputString = "";
             outputString += "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
             outputString += "Name: " + this.Name + "\n" + "";
             outputString += "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
             foreach(Power power in this.Powers)
             {
-                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
             }
             outputString += "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
             return outputString;
