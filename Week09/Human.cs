@@ -7,7 +7,7 @@ using System.Text;
  * Name: Matthew Watada
  * July 11th 2017
  * Description: This is the abstract class
- * Version: 0.1 Initial Commit
+ * Version: 0.2 Added an abstract method, didn't realize that I was doing individual class version types.
  */
 
 namespace Week09
@@ -50,6 +50,7 @@ namespace Week09
         // PRIVATE METHODS
 
         // PUBLIC METHODS
+        public abstract void DisplaySkills();
 
     }
 }
