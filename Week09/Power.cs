@@ -12,24 +12,27 @@ namespace Week09
  * Description: This is the abstract class
  * Version: 0.2 Now with Power class (holpefully) which is prerequisite to the SuperHuman class
  */
-    public class Power // Must be a public class!
+    /// <summary>
+    /// This is the Power class which will be used as a Data type
+    /// </summary>
+    public class Power
     {
-        // Public Properties 
-        /* For the sake of initializing properties in the constructer, the property names
-         * should be capitalized.
-         */
+        // PUBLIC PROPERTIES
         public string Name { get; set; }
         public int Rank { get; set; }
 
+        // CONSTRUCTORS -----------------------------------
 
-        // Public Constructer
+        /// <summary>
+        /// This is the main constructor for the Power class.
+        /// It takes two arguments - name (string) - rank (int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
         public Power(string name, int rank)
         {
             this.Name = name;
             this.Rank = rank;
         }
-
-        /// this one takes 2 paramaters, unlikee the one in the human class
-
     }
 }

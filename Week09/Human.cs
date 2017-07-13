@@ -12,35 +12,44 @@ using System.Text;
 
 namespace Week09
 {
+    /// <summary>
+    /// This is the Abstract Human Class
+    /// </summary>
     public abstract class Human
     {
-        // Private Fields
+        // PRIVATE INSTANCE VARIABLES (FIELDS)
         private string _name;
 
-        // Public Properties --------------------------------------
+        // PUBLIC PROPERTIES
         public string Name
         {
+
             get
             {
                 return this._name;
             }
+
             set
             {
                 this._name = value;
             }
         }
 
-        //Constructors
+        // CONSTRUCTORS ---------------------------------------------
 
         /// <summary>
-        /// Okay, IDK why it let me put a summary in here but not int the other class.
-        /// Requires only one parameter...
+        /// This is the main constructor for the Human class.
+        /// It takes one parameter - name (string)
         /// </summary>
         /// <param name="name"></param>
-
         public Human(string name)
         {
             this.Name = name;
         }
+
+        // PRIVATE METHODS
+
+        // PUBLIC METHODS
+
     }
 }
