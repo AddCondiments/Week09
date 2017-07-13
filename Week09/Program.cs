@@ -21,6 +21,10 @@ namespace Week09
             superHuman.AddPower("Spider Climbing", 50);
             superHuman.AddPower("Webcasting", 40);
             Console.WriteLine(superHuman.ToString());
+            SuperVillian superVillian = new SuperVillian("Baddie McBaddington", 9001);
+            superVillian.AddPower("Malevolent Stare", 420);
+            superVillian.AddPower("Imminent Betrayal", 69);
+            Console.WriteLine(superVillian.ToString());
         }
     }
 }
